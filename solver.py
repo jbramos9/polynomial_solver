@@ -1,6 +1,8 @@
+# Taken from the functions folder
 from functions.plotter import *
 from functions.io_handling import *
 from functions.train_test import *
+
 from tinygrad.nn.optim import SGD
 import pandas as pd
 
@@ -33,7 +35,7 @@ testloader = Dataset(x_test, y_test)
 models = []
 losses = []
 
-# Train and validate each model from Model 1 to Model 4
+# Train and validate each model from Model 1 to Model 4 (The model class and train function is also located at train_test.py in functions folder)
 for i in range(2,6):
     coeffs = coeffs_gen(i)
     model = Polynomial_Model(coeffs)
