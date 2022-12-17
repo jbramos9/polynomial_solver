@@ -41,4 +41,4 @@ A couple of test run was conducted to see the performance of the overall project
 
 From Figure 2, the best model for the provided dataset is Model (4th degree polynomial). It has a 49.58 RMSE Training Loss, 41.86 RMSE Validation Loss, 99.99% R2 score in validation, 9.56 RMSE Testing Loss, and an almost 100% R2 score in testing. In my personal experience, the RMSE loss for Training and Validation of the best model is around 9-140, while it might even reach 300 for Testing in worst case scenarios.
 
-Created by: Joshua B. Ramos
+Created by: <b>Joshua B. Ramos</b>
