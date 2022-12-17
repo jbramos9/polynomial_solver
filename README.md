@@ -22,8 +22,8 @@ Where a, b, c, d, and e are all weights.
 ### Possible User Inputs
 * File Location of Train Set (--train_dataset) (str): default='dataset/data_train.csv'
 * File Location of Test Set (--test_dataset) (str): default='dataset/data_test.csv'
-* Learning Rate (--lr) (float): default=40
-* Batch Size (--batch_size) (int): default=0.00000000003
+* Learning Rate (--lr) (float): default=0.00000000003
+* Batch Size (--batch_size) (int): default=40
 * Maximum Number of Iterations (--max_epoch) (int): default=500
 
 See the argparser in io_handling.py in functions folder for more information.
