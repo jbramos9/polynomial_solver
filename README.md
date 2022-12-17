@@ -26,6 +26,8 @@ Where a, b, c, d, and e are all weights.
 * Batch Size (--batch_size) (int): default=0.00000000003
 * Maximum Number of Iterations (--max_epoch) (int): default=500
 
+See the argparser in io_handling.py in functions folder for more information.
+
 ### Sample Run of solver.py
 A couple of test run was conducted to see the performance of the overall project. The following is one of the best results of running the code:
 <p align="center">
