@@ -18,6 +18,6 @@ def loss_plotter(max_epoch, loss):
     x = list(range(max_epoch))
     plt.plot(x,loss)
     plt.xlabel("Epoch")
-    plt.ylabel("L2 Loss")
+    plt.ylabel("RMSE Loss")
     
     plt.show()
