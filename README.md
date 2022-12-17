@@ -41,7 +41,7 @@ A couple of test run was conducted to see the performance of the overall project
 
 From Figure 2, the best model for the provided dataset is Model (4th degree polynomial). It has a 49.58 RMSE Training Loss, 41.86 RMSE Validation Loss, 99.99% R2 score in validation, 9.56 RMSE Testing Loss, and an almost 100% R2 score in testing. In my personal experience, the RMSE loss for Training and Validation of the best model is around 9-140, while it might even reach 300 for Testing in worst case scenarios.
 
-The predicted degree is 4, while the coefficients are 0.56278354, -1.2822618, 1.0920887, -1.9832292, 0.099802285. The polynomial is:
+The predicted degree is 4, while the predicted coefficients are 0.56278354, -1.2822618, 1.0920887, -1.9832292, 0.099802285. The polynomial has a form of:
 
 <p align="center"> y = 0.56278354x<sup>4</sup> - 1.2822618x<sup>3</sup> + 1.0920887x<sup>2</sup> - 1.9832292x + 0.099802285 </p>
 
