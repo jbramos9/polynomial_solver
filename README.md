@@ -44,5 +44,5 @@ From Figure 2, the best model for the provided dataset is Model (4th degree poly
 ### Some Notes
 * The tinygrad library was installed in my system by following the instruction in the README of the repository, instead of being installed through pip.
 * In my device, 'python3 solver.py' does not work, but 'python solver.py' do work
-
+<br>
 Created by: <b>Joshua B. Ramos</b>
