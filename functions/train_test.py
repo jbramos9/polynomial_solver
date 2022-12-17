@@ -2,6 +2,10 @@ from tinygrad.tensor import Tensor, Function
 from tqdm import tqdm
 import numpy as np
 import math
+from functions.io_handling import *
+
+args = argparser()
+initial_lr = args.lr
 
 # The class used to create the four model objects
 class Polynomial_Model(Function):
@@ -98,11 +102,11 @@ def r2_score(x_gt, y_gt, model):
 
 # Learning Rate Scheduler
 def schedule(epoch):
-  initial_lr = 0.00000000003
-  drop = 0.001
-  epochs_drop = 250.0
-  lr = initial_lr * math.pow(drop, math.floor((1+epoch)/epochs_drop))
-  return lr
+    global initial_lr
+    drop = 0.001
+    epochs_drop = 250.0
+    lr = initial_lr * math.pow(drop, math.floor((1+epoch)/epochs_drop))
+    return lr
 
 # Perform the training of the model given the optimizer, dataset, and number of iterations
 def train(model, optimizer, dataset, max_epochs, model_number=0):
