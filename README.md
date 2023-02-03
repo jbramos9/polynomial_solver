@@ -45,8 +45,5 @@ The predicted degree is 4, while the predicted coefficients are 0.56278354, -1.2
 
 <p align="center"> y = 0.099802285x<sup>4</sup> - 1.9832292x<sup>3</sup> + 1.0920887x<sup>2</sup> - 1.2822618x + 0.56278354 </p>
 
-### Some Notes
-* The tinygrad library was installed in my system by following the instruction in the README of the repository, instead of being installed through pip.
-* In my device, 'python3 solver.py' does not work, but 'python solver.py' do work
 <br>
 Created by: <b>Joshua B. Ramos</b>
